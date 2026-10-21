@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour
     private double enemyDMG;
     private double enemySPD;
     private double enemyCD;
+    
 
     private Rigidbody2D rb;
     private SpriteRenderer enemyRenderer;
@@ -26,7 +27,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        
+        EnemyType()
     }
     
 
